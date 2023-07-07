@@ -1,0 +1,45 @@
+#game {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+.grid-cell {
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+}
+.status
+{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+}
+.game-over
+{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.game-over-text
+{
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.restart
+{
+  font-size: 24px;
+  padding: 10px 20px;
+  background-color: #337ab7;
+  columns: #fff;
+  border: none;
+  cursor: pointer;
+}
